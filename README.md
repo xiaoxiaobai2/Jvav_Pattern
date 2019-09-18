@@ -2,7 +2,7 @@
 ##一、单例设计模式<br><br>
 ###1、饿汉式<br>
 \t线程安全，调用效率高，但是，不能延时加载<br>
-\t[Demo]https://github.com/xiaoxiaobai2/Jvav_Pattern/blob/master/Singleton/SingletonDemo01.java<br><br>
+\t[Demo](https://github.com/xiaoxiaobai2/Jvav_Pattern/blob/master/Singleton/SingletonDemo01.java)<br><br>
 ###2懒汉式、<br>
 \t线程不安全（需要加入同步synchronized），调用效率不高，但是，可以延时加载<br>
 \t[Demo]https://github.com/xiaoxiaobai2/Jvav_Pattern/blob/master/Singleton/SingletonDemo02.java<br><br>
