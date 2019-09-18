@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="111.09895833333337" y="261.0">Factory.SimpleFactory.SimpleFactory</node>
+    <node x="120.00000000000003" y="87.0">Factory.SimpleFactory.Audi</node>
+    <node x="0.0" y="87.0">Factory.SimpleFactory.Benchi</node>
+    <node x="86.84895833333334" y="174.0">Factory.SimpleFactory.CarFactory</node>
+    <node x="154.66145833333334" y="0.0">Factory.SimpleFactory.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Factory.SimpleFactory.SimpleFactory" target="Factory.SimpleFactory.Car">
+      <point x="40.74999999999997" y="-18.5" />
+      <point x="233.34895833333334" y="236.0" />
+      <point x="238.99479166666669" y="236.0" />
+      <point x="238.99479166666669" y="57.0" />
+      <point x="218.53645833333334" y="57.0" />
+      <point x="27.375" y="18.5" />
+    </edge>
+    <edge source="Factory.SimpleFactory.CarFactory" target="Factory.SimpleFactory.Benchi">
+      <point x="-45.33333333333334" y="-18.5" />
+      <point x="109.515625" y="149.0" />
+      <point x="50.0" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Factory.SimpleFactory.SimpleFactory" target="Factory.SimpleFactory.CarFactory">
+      <point x="-40.75000000000003" y="-18.5" />
+      <point x="151.84895833333334" y="236.0" />
+      <point x="154.84895833333334" y="236.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Factory.SimpleFactory.Benchi" target="Factory.SimpleFactory.Car">
+      <point x="0.0" y="-18.5" />
+      <point x="50.0" y="57.0" />
+      <point x="163.78645833333334" y="57.0" />
+      <point x="-27.375" y="18.5" />
+    </edge>
+    <edge source="Factory.SimpleFactory.Audi" target="Factory.SimpleFactory.Car">
+      <point x="0.0" y="-18.5" />
+      <point x="161.00000000000003" y="67.0" />
+      <point x="182.03645833333334" y="67.0" />
+      <point x="-9.125" y="18.5" />
+    </edge>
+    <edge source="Factory.SimpleFactory.CarFactory" target="Factory.SimpleFactory.Audi">
+      <point x="0.0" y="-18.5" />
+      <point x="154.84895833333334" y="149.0" />
+      <point x="161.00000000000003" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="Factory.SimpleFactory.CarFactory" target="Factory.SimpleFactory.Car">
+      <point x="45.33333333333334" y="-18.5" />
+      <point x="200.18229166666669" y="149.0" />
+      <point x="220.49479166666669" y="149.0" />
+      <point x="220.49479166666669" y="67.0" />
+      <point x="200.28645833333334" y="67.0" />
+      <point x="9.125" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="137.5" y="149.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

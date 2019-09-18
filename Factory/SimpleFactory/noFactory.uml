@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="169.0">Factory.SimpleFactory.Test_noFactory</node>
+    <node x="0.0" y="87.0">Factory.SimpleFactory.Audi</node>
+    <node x="102.0" y="87.0">Factory.SimpleFactory.Benchi</node>
+    <node x="60.0" y="0.0">Factory.SimpleFactory.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Factory.SimpleFactory.Benchi" target="Factory.SimpleFactory.Car">
+      <point x="0.0" y="-18.5" />
+      <point x="152.0" y="62.0" />
+      <point x="114.75" y="62.0" />
+      <point x="18.25" y="18.5" />
+    </edge>
+    <edge source="Factory.SimpleFactory.Audi" target="Factory.SimpleFactory.Car">
+      <point x="0.0" y="-18.5" />
+      <point x="41.0" y="62.0" />
+      <point x="78.25" y="62.0" />
+      <point x="-18.25" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="700.0" y="263.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
