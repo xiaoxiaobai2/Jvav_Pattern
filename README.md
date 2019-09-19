@@ -1,6 +1,6 @@
 # Java 设计模式练习<br>
 ## 一、单例设计模式<br>
-.
+保证一个类只有一个实例，并且提供一个访问该实例的方法
 	1、饿汉式<br>
 	 线程安全，调用效率高，但是，不能延时加载<br>
 	 [Demo](https://github.com/xiaoxiaobai2/Jvav_Pattern/blob/master/Singleton/SingletonDemo01.java)<br><br>
@@ -29,3 +29,12 @@
 	3、抽象工厂模式（静态工厂模式）<br>
 	 不可以增加产品，可以增加产品族<br>
 	 [demo](https://github.com/xiaoxiaobai2/Jvav_Pattern/tree/master/Factory/AbstractFactory)<br><br>
+## 三、建造者模式
+分离了对象子组件的单独构造（有Builder来负责）和装配（有Director负责），从而可以构造处复杂的对象<br>
+	[Demo](https://github.com/xiaoxiaobai2/Jvav_Pattern/tree/master/Builder)<br>
+## 四、原型模式（克隆模式）
+通过new产生一个对象需要非常繁琐的数据准备货访问权限，则可以使用原型模式（一般和工厂模式搭配使用）
+	实现Cloneable接口，并重写clone方法<br>
+	[浅克隆Demo](https://github.com/xiaoxiaobai2/Jvav_Pattern/blob/master/Prototype/Test.java)<br>
+	[通过克隆时克隆参数实现深克隆Demo](https://github.com/xiaoxiaobai2/Jvav_Pattern/blob/master/Prototype/Test02.java)<br>
+	[通过序列化于反序列化实现深克隆Demo](https://github.com/xiaoxiaobai2/Jvav_Pattern/blob/master/Prototype/Test03.java)<br>
