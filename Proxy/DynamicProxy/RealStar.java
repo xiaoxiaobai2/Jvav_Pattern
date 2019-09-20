@@ -1,4 +1,4 @@
-package Proxy.StaticProxy.DynamicProxy;
+package Proxy.DynamicProxy;
 
 public class RealStar implements Star {
     private String name;
