@@ -1,5 +1,6 @@
 package Proxy.StaticProxy;
 
+
 public class RealStar implements Star {
     private String name;
 
