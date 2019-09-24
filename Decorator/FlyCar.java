@@ -28,7 +28,7 @@ class AICar extends SuperCar {
     public AICar(ICar car) {
         super(car);
     }
-
+    
     @Override
     public void move() {
         super.move();
